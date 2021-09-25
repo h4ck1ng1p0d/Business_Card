@@ -1,8 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Email Signiture
-    </title>
+    <title>HackingiPod Business Card</title>
 
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
@@ -14,10 +13,10 @@
             padding: 0;
         }
            
-        .Business_card, .other, .buttonBox {
+        .Business_card, .other, .buttonBox, .other_option {
             width: 300px;
             height: 250px;
-            background-color: #f1f1f1;
+            background-color: #fff;
             margin: 5em auto;
             margin-top: 10px;
         }
@@ -34,20 +33,18 @@
             margin-top: -70px;
         }
 
+        .other_option {
+            text-align: center;
+            height: auto;
+            margin: auto auto;
+        }
+
         p{
             font-family: Arial, Helvetica, sans-serif;
         }
 
         img {
             width: 300px;
-        }
-
-        p.green {
-            color: darkgreen;
-        }
-
-        p.darkgreen {
-            color: #000;
         }
 
         p {
@@ -69,6 +66,16 @@
             color: #000;
         }
 
+        .email, .email:link, .email:visited {
+            color: #000;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .email:hover, .email:active {
+            text-decoration: none;
+        }
+
         .aButton, .aButton:link, .aButton:visited {
         background-color: white;
         color: #000;
@@ -84,6 +91,11 @@
         background-color: #000;
         color: white;
         cursor: pointer;
+        }
+
+        .qr {
+            height: auto;
+            width: 300px;
         }
     </style>    
 </head>
@@ -111,26 +123,20 @@
     </div>
 
     <div class="buttonBox">
-        <a class="aButton">Download Me</a>
+        <a class="aButton" href="">Download Me</a>
     </div>
+
+    <div class="other_option">
+        <h1>Or</h1>
+    </div>
+
+    <div class="other_option">
+        <h1><a class="email" href="maito:enter@email.com">Send an Email</a></h1>
+    </div>
+
+    <div class="other_option">
+        <img class="qr" src="Qr.png">
+    </div>
+    
 </body>
 </html>
-
-    <!--<p class="green">Martijn Bak</p>
-    <p>Inkoper Cirkel Bouw</p>
-
-<p class="underl">............................................................</p>
-
-    <p class="green">Ecodorp Boekel</p>
-    <p>Klein Rondeel 203 | 5427GB | Boekel</p>
-
-<p class="underl">............................................................</p>
-
-    <p class="green">M: <a href="tel:+31 6 44 16 89 76">+31 6 44 16 89 76</a></p>
-    <p class="green black">M: <a href="tel:+39 3383 829 529">+39 3383 829 529</a> </p><p class="behind">(Indien nummer hierboven niet wordt beantwoord)</p>
-    <p class="green">E: <a href="mailto:martijn@ecodorpboekel.nl">martijn@ecodorpboekel.nl</a></p>
-
-<br>
-    <img src="logo.png">
-
-<div class="devider"></div>-->
